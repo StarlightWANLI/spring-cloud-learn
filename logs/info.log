@@ -1,0 +1,348 @@
+2018-02-02 18:06:48.721 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@52d239ba: startup date [Fri Feb 02 18:06:48 CST 2018]; root of context hierarchy
+2018-02-02 18:06:49.010 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-02 18:06:49.220 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c33b2146] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:06:49.316 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2018-02-02 18:06:49.911 [main] INFO  c.h.j.s.SpringDataJpaApplication -The following profiles are active: dev
+2018-02-02 18:06:49.967 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20ed3303: startup date [Fri Feb 02 18:06:49 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@52d239ba
+2018-02-02 18:06:51.821 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-02 18:06:52.024 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.hhly.jpa.springdatajpa]' package. Please check your configuration.
+2018-02-02 18:06:52.248 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-02 18:06:52.298 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.UserRepository.
+2018-02-02 18:06:52.299 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.OrderRepository.
+2018-02-02 18:06:52.553 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=99cd173f-6a44-3900-acfd-9afff6fa7cca
+2018-02-02 18:06:52.573 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor -Post-processing PropertySource instances
+2018-02-02 18:06:52.650 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:06:52.650 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:06:52.650 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:06:52.651 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:06:52.651 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:06:52.651 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application-dev.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:06:52.651 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:06:52.651 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:06:52.651 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource class path resource [eureka/server.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:06:52.651 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:06:52.667 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-02 18:06:52.845 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7211e49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:06:53.115 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$d94dc48a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:06:53.127 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c33b2146] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:06:53.341 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver -Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-02-02 18:06:53.347 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector -Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-02-02 18:06:53.984 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8762 (http)
+2018-02-02 18:06:54.019 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2018-02-02 18:06:54.019 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-02 18:06:54.385 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2018-02-02 18:06:54.386 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 4419 ms
+2018-02-02 18:06:54.684 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-02 18:06:54.689 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-02-02 18:06:54.689 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-02 18:06:54.689 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-02 18:06:54.689 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-02 18:06:54.690 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-02 18:06:54.690 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-02-02 18:06:54.690 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-02-02 18:06:54.737 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -FirstListener 初始化...
+2018-02-02 18:06:54.770 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-02-02 18:06:54.787 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-02-02 18:06:54.787 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-02-02 18:06:54.787 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-02-02 18:06:54.787 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-02-02 18:06:54.787 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-02-02 18:06:54.789 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-02-02 18:06:55.676 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2018-02-02 18:06:56.865 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:06:56.899 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-02 18:06:57.031 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-02 18:06:57.033 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2018-02-02 18:06:57.034 [main] INFO  org.hibernate.cfg.Environment -HHH000021: Bytecode provider name : javassist
+2018-02-02 18:06:57.147 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-02 18:06:57.404 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-02 18:06:57.990 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:06:58.057 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'orderService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderSerciceImpl' defined in file [E:\springcloud\spring-cloud-learn\spring-data-jpa\target\classes\com\hhly\jpa\springdatajpa\service\impl\OrderSerciceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hhly.jpa.springdatajpa.mapper.CrudMapper<com.hhly.jpa.springdatajpa.entity.Order>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-02-02 18:06:58.058 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:06:58.060 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+2018-02-02 18:06:58.061 [main] INFO  o.a.catalina.core.StandardService -Stopping service Tomcat
+2018-02-02 18:06:58.063 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -FirstListener 销毁...
+2018-02-02 18:06:58.095 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-02 18:06:58.469 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hhly.jpa.springdatajpa.service.impl.OrderSerciceImpl required a bean of type 'com.hhly.jpa.springdatajpa.mapper.CrudMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hhly.jpa.springdatajpa.mapper.CrudMapper' in your configuration.
+
+2018-02-02 18:07:55.020 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@584f54e6: startup date [Fri Feb 02 18:07:55 CST 2018]; root of context hierarchy
+2018-02-02 18:07:55.212 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-02 18:07:55.255 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2018-02-02 18:07:55.281 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9cd0fc35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:07:55.633 [main] INFO  c.h.j.s.SpringDataJpaApplication -The following profiles are active: dev
+2018-02-02 18:07:55.652 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@715fb77: startup date [Fri Feb 02 18:07:55 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@584f54e6
+2018-02-02 18:07:56.437 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-02 18:07:56.573 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.hhly.jpa.springdatajpa]' package. Please check your configuration.
+2018-02-02 18:07:56.707 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-02 18:07:56.737 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.UserRepository.
+2018-02-02 18:07:56.738 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.OrderRepository.
+2018-02-02 18:07:56.944 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=99cd173f-6a44-3900-acfd-9afff6fa7cca
+2018-02-02 18:07:56.963 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor -Post-processing PropertySource instances
+2018-02-02 18:07:57.001 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:07:57.001 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:07:57.002 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:07:57.002 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:07:57.002 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:07:57.002 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application-dev.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:07:57.002 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:07:57.002 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:07:57.002 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource class path resource [eureka/server.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:07:57.002 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:07:57.017 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-02 18:07:57.145 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80b6f938] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:07:57.250 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$b2e39f79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:07:57.260 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9cd0fc35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:07:57.341 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver -Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-02-02 18:07:57.343 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector -Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-02-02 18:07:57.559 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8762 (http)
+2018-02-02 18:07:57.569 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2018-02-02 18:07:57.570 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-02 18:07:57.703 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2018-02-02 18:07:57.703 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2051 ms
+2018-02-02 18:07:57.973 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-02 18:07:57.977 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-02-02 18:07:57.977 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-02 18:07:57.977 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-02 18:07:57.977 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-02 18:07:57.977 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-02 18:07:57.978 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-02-02 18:07:57.978 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-02-02 18:07:57.989 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -FirstListener 初始化...
+2018-02-02 18:07:58.020 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-02-02 18:07:58.027 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-02-02 18:07:58.027 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-02-02 18:07:58.027 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-02-02 18:07:58.027 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-02-02 18:07:58.027 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-02-02 18:07:58.028 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-02-02 18:07:58.469 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2018-02-02 18:07:58.713 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:07:58.725 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-02 18:07:58.787 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-02 18:07:58.789 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2018-02-02 18:07:58.790 [main] INFO  org.hibernate.cfg.Environment -HHH000021: Bytecode provider name : javassist
+2018-02-02 18:07:58.834 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-02 18:07:58.960 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-02 18:07:59.414 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:07:59.472 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'orderService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderSerciceImpl' defined in file [E:\springcloud\spring-cloud-learn\spring-data-jpa\target\classes\com\hhly\jpa\springdatajpa\service\impl\OrderSerciceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hhly.jpa.springdatajpa.mapper.CrudMapper<com.hhly.jpa.springdatajpa.entity.Order>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-02-02 18:07:59.472 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:07:59.476 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+2018-02-02 18:07:59.477 [main] INFO  o.a.catalina.core.StandardService -Stopping service Tomcat
+2018-02-02 18:07:59.479 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -FirstListener 销毁...
+2018-02-02 18:07:59.490 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-02 18:07:59.627 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hhly.jpa.springdatajpa.service.impl.OrderSerciceImpl required a bean of type 'com.hhly.jpa.springdatajpa.mapper.CrudMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hhly.jpa.springdatajpa.mapper.CrudMapper' in your configuration.
+
+2018-02-02 18:10:36.664 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@485e36bc: startup date [Fri Feb 02 18:10:36 CST 2018]; root of context hierarchy
+2018-02-02 18:10:36.919 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-02 18:10:36.971 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2018-02-02 18:10:37.046 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$daaed2fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:10:37.571 [main] INFO  c.h.j.s.SpringDataJpaApplication -The following profiles are active: dev
+2018-02-02 18:10:37.591 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@383f1975: startup date [Fri Feb 02 18:10:37 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@485e36bc
+2018-02-02 18:10:38.548 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-02 18:10:38.685 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.hhly.jpa.springdatajpa]' package. Please check your configuration.
+2018-02-02 18:10:38.820 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-02 18:10:38.856 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.UserRepository.
+2018-02-02 18:10:38.857 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.OrderRepository.
+2018-02-02 18:10:39.081 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=99cd173f-6a44-3900-acfd-9afff6fa7cca
+2018-02-02 18:10:39.099 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor -Post-processing PropertySource instances
+2018-02-02 18:10:39.137 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:10:39.137 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:10:39.138 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:10:39.138 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:10:39.138 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:10:39.138 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application-dev.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:10:39.138 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:10:39.138 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:10:39.138 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource class path resource [eureka/server.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:10:39.138 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:10:39.155 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-02 18:10:39.319 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be94cffe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:10:39.491 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$f0c1763f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:10:39.507 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$daaed2fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:10:39.604 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver -Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-02-02 18:10:39.606 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector -Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-02-02 18:10:39.921 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8762 (http)
+2018-02-02 18:10:39.954 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2018-02-02 18:10:39.954 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-02 18:10:40.073 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2018-02-02 18:10:40.073 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2482 ms
+2018-02-02 18:10:40.379 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-02 18:10:40.385 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-02-02 18:10:40.385 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-02 18:10:40.385 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-02 18:10:40.385 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-02 18:10:40.385 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-02 18:10:40.385 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-02-02 18:10:40.386 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-02-02 18:10:40.397 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -FirstListener 初始化...
+2018-02-02 18:10:40.428 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-02-02 18:10:40.436 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-02-02 18:10:40.436 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-02-02 18:10:40.436 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-02-02 18:10:40.436 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-02-02 18:10:40.436 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-02-02 18:10:40.437 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-02-02 18:10:40.827 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2018-02-02 18:10:41.055 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:10:41.065 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-02 18:10:41.133 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-02 18:10:41.134 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2018-02-02 18:10:41.135 [main] INFO  org.hibernate.cfg.Environment -HHH000021: Bytecode provider name : javassist
+2018-02-02 18:10:41.185 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-02 18:10:41.346 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-02 18:10:41.779 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:10:41.825 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'orderService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderSerciceImpl' defined in file [E:\springcloud\spring-cloud-learn\spring-data-jpa\target\classes\com\hhly\jpa\springdatajpa\service\impl\OrderSerciceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hhly.jpa.springdatajpa.mapper.CrudMapper<com.hhly.jpa.springdatajpa.entity.Order>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-02-02 18:10:41.825 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:10:41.828 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+2018-02-02 18:10:41.829 [main] INFO  o.a.catalina.core.StandardService -Stopping service Tomcat
+2018-02-02 18:10:41.832 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -FirstListener 销毁...
+2018-02-02 18:10:41.845 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-02 18:10:41.980 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hhly.jpa.springdatajpa.service.impl.OrderSerciceImpl required a bean of type 'com.hhly.jpa.springdatajpa.mapper.CrudMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hhly.jpa.springdatajpa.mapper.CrudMapper' in your configuration.
+
+2018-02-02 18:37:11.519 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6c25e6c4: startup date [Fri Feb 02 18:37:11 CST 2018]; root of context hierarchy
+2018-02-02 18:37:11.939 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-02 18:37:12.025 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f2bd1a9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:37:12.127 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2018-02-02 18:37:12.759 [main] INFO  c.h.j.s.SpringDataJpaApplication -The following profiles are active: dev
+2018-02-02 18:37:12.808 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3a627c80: startup date [Fri Feb 02 18:37:12 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6c25e6c4
+2018-02-02 18:37:15.282 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-02 18:37:15.716 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.hhly.jpa.springdatajpa]' package. Please check your configuration.
+2018-02-02 18:37:15.968 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-02 18:37:16.025 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.UserRepository.
+2018-02-02 18:37:16.026 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.OrderRepository.
+2018-02-02 18:37:16.312 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=8acc760b-2e23-35f0-b5b0-7ddedada3f02
+2018-02-02 18:37:16.329 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor -Post-processing PropertySource instances
+2018-02-02 18:37:16.413 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:37:16.413 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:37:16.414 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:37:16.414 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:37:16.414 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-02-02 18:37:16.414 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application-dev.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:37:16.414 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:37:16.415 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:37:16.415 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource class path resource [eureka/server.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:37:16.415 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-02 18:37:16.430 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-02 18:37:16.712 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d6a3179e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:37:16.916 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$8cfbddf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:37:16.925 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f2bd1a9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-02 18:37:17.042 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver -Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-02-02 18:37:17.044 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector -Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-02-02 18:37:17.425 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8762 (http)
+2018-02-02 18:37:17.444 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2018-02-02 18:37:17.445 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-02 18:37:17.652 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2018-02-02 18:37:17.652 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 4844 ms
+2018-02-02 18:37:18.033 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-02 18:37:18.039 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-02-02 18:37:18.039 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-02 18:37:18.039 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-02 18:37:18.040 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-02 18:37:18.040 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-02 18:37:18.040 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-02-02 18:37:18.040 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-02-02 18:37:18.105 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -FirstListener 初始化...
+2018-02-02 18:37:18.147 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-02-02 18:37:18.163 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-02-02 18:37:18.163 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-02-02 18:37:18.163 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-02-02 18:37:18.163 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-02-02 18:37:18.163 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-02-02 18:37:18.164 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-02-02 18:37:19.197 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2018-02-02 18:37:19.679 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-02 18:37:19.699 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-02 18:37:19.825 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-02 18:37:19.827 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2018-02-02 18:37:19.827 [main] INFO  org.hibernate.cfg.Environment -HHH000021: Bytecode provider name : javassist
+2018-02-02 18:37:19.835 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+2018-02-02 18:37:19.838 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+2018-02-02 18:37:19.839 [main] INFO  o.a.catalina.core.StandardService -Stopping service Tomcat
+2018-02-02 18:37:19.841 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -FirstListener 销毁...
+2018-02-02 18:37:19.870 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-02 18:37:19.885 [main] ERROR o.s.boot.SpringApplication -Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.hhly.jpa.springdatajpa.SpringDataJpaApplication.main(SpringDataJpaApplication.java:12)
+Caused by: java.lang.NoSuchMethodError: javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+	at org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.mergeSettings(EntityManagerFactoryBuilderImpl.java:414)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:149)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:54)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 16 common frames omitted
