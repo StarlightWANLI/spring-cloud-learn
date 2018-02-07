@@ -27,4 +27,7 @@ public class RestfulResponse implements Response {
     @JsonProperty("code")
     @ApiModelProperty(value = "平台状态码", example = "20000", required = true)
     private int code = DEFAULT_OK;
+
+
+    private String message = "操作成功！";
 }

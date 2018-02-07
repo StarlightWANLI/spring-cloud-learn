@@ -1,14 +1,20 @@
 package com.hhly.jpa.springdatajpa.service;
 
 
-import com.hhly.jpa.springdatajpa.entity.Order;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Service;
+import com.hhly.jpa.springdatajpa.domain.Order;
+import com.hhly.jpa.springdatajpa.model.request.OrderRequest;
+import com.hhly.jpa.springdatajpa.model.response.ObjectCollectionResponse;
+import com.hhly.jpa.springdatajpa.model.response.ObjectDataResponse;
+import com.hhly.jpa.springdatajpa.model.response.RestfulResponse;
 
 /**
  * @author Zhao Junjian
  */
 public interface OrderService{
 
+    ObjectCollectionResponse<Order> query(OrderRequest request);
+
+    ObjectDataResponse<Order> save(Order order);
+
+    RestfulResponse delete(Long id);
 }

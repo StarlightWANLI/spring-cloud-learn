@@ -1,19 +1,14 @@
 package com.hhly.jpa.springdatajpa.controller;
 
 
-import com.google.common.base.Preconditions;
 import com.hhly.jpa.springdatajpa.annatation.RequestLogging;
-import com.hhly.jpa.springdatajpa.entity.Order;
-import com.hhly.jpa.springdatajpa.entity.User;
-import com.hhly.jpa.springdatajpa.model.request.OrderRequest;
-import com.hhly.jpa.springdatajpa.model.request.PaymentRequest;
+import com.hhly.jpa.springdatajpa.domain.User;
 import com.hhly.jpa.springdatajpa.model.request.UserRequest;
 import com.hhly.jpa.springdatajpa.model.response.ObjectDataResponse;
 import com.hhly.jpa.springdatajpa.service.OrderService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

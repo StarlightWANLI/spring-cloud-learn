@@ -28,8 +28,8 @@ public class OrderRequest extends RestfulRequest {
     /**
      * 订单查询中产品编号可以为空
      */
-    @Min(1)
-    @ApiModelProperty(value = "产品编号", required = true, example = "1")
+    @Min(value = 1,message = "超过最小值")
+    @ApiModelProperty(value = "产品编号", example = "1")
     private Long productCode;
 
     @NotNull

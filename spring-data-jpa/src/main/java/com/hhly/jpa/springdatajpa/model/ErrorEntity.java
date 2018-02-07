@@ -3,6 +3,7 @@ package com.hhly.jpa.springdatajpa.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.hhly.jpa.springdatajpa.model.response.Response;
 import com.hhly.jpa.springdatajpa.model.type.RestStatus;
 import com.hhly.jpa.springdatajpa.util.Jacksons;
 import lombok.EqualsAndHashCode;

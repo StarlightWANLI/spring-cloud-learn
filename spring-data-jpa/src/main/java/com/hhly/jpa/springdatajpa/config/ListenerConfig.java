@@ -9,6 +9,12 @@ import org.springframework.context.annotation.Configuration;
 
 /*
  *  监听器的配置类
+ *
+ *  spring boot中的配置，监听器（Listener）的注册方法和 Servlet 一样，有两种方式：代码注册或者注解注册
+ *  1、代码注册方式
+ *  2、注解方式
+ *
+ *
  */
 @Configuration
 public class ListenerConfig {

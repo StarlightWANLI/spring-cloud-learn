@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 
 /**
+ * 返回单个对象的封装对象
  * @author Zhao Junjian
  */
 @Getter

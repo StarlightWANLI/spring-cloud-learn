@@ -24,6 +24,6 @@ public class StartupLogging2Runner implements CommandLineRunner{
     @Override
     public void run(String... strings) throws Exception {
          log.info("startup  2  ……"  + password);
-        log.info("startup  2   密码值："  + key);
+         log.info("startup  2   密码值："  + key);
     }
 }

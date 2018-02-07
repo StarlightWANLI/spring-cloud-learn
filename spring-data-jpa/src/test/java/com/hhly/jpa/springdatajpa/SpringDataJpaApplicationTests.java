@@ -1,7 +1,7 @@
 package com.hhly.jpa.springdatajpa;
 
 import com.google.common.collect.Lists;
-import com.hhly.jpa.springdatajpa.entity.User;
+import com.hhly.jpa.springdatajpa.domain.User;
 import com.hhly.jpa.springdatajpa.repositories.UserRepository;
 import org.jasypt.encryption.StringEncryptor;
 import org.jasypt.util.text.BasicTextEncryptor;
