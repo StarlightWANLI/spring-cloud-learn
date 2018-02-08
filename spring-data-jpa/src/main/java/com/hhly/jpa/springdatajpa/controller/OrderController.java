@@ -11,6 +11,7 @@ import com.hhly.jpa.springdatajpa.model.response.RestfulResponse;
 import com.hhly.jpa.springdatajpa.service.OrderService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.validation.BindingResult;
@@ -23,7 +24,8 @@ import javax.validation.Valid;
  *
  * 请求改为标准的restful风格的请求
  *
- *
+ *这个限制的太死，看情况添加
+ * produces = {MediaType.APPLICATION_JSON_UTF8_VALUE}, consumes = {MediaType.APPLICATION_JSON_UTF8_VALUE}
  */
 @RestController
 @RequestMapping(value = "/api/v1")
@@ -43,8 +45,26 @@ public class OrderController {
     @RequestMapping(value = "/orders/query", method = RequestMethod.POST)
     @RequestLogging
     public ObjectCollectionResponse<Order> query(@Valid @RequestBody OrderRequest request) {
-        return orderService.query(request);
+        Order order = new Order();
+        BeanUtils.copyProperties(request,order);
+        //服务层提供通用的查询
+        return orderService.query(order);
     }
+
+
+    /**
+     * get请求不能传递RequestBody参数           restful风格，不一定真正适用，但是可以部分尝试
+     * @return
+     */
+    @ApiOperation(value = "查询用户订单", notes = "根据用户id查询用户下的订单")
+    @RequestMapping(value = "/orders/{id}", method = RequestMethod.GET)
+    @RequestLogging
+    public ObjectCollectionResponse<Order> query( @PathVariable Long id) {
+        Order order = new Order();
+        order.setId(id);
+        return orderService.query(order);
+    }
+
 
 
     @ApiOperation(value = "生成或修改订单", notes = "生成或修改订单")

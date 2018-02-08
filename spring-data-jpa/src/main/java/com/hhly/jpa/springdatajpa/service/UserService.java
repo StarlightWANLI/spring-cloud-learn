@@ -2,19 +2,22 @@ package com.hhly.jpa.springdatajpa.service;
 
 
 import com.hhly.jpa.springdatajpa.domain.Order;
-import com.hhly.jpa.springdatajpa.model.request.OrderRequest;
+import com.hhly.jpa.springdatajpa.domain.User;
+import com.hhly.jpa.springdatajpa.model.ResultMsg;
 import com.hhly.jpa.springdatajpa.model.response.ObjectCollectionResponse;
 import com.hhly.jpa.springdatajpa.model.response.ObjectDataResponse;
 import com.hhly.jpa.springdatajpa.model.response.RestfulResponse;
 
+import java.util.List;
+
 /**
  * @author Zhao Junjian
  */
-public interface OrderService{
+public interface UserService {
 
-    ObjectCollectionResponse<Order> query(Order order);
+    List<User> query(User user);
 
-    ObjectDataResponse<Order> save(Order order);
+    User save(User user);
 
-    RestfulResponse delete(Long id);
+    void delete(Long id);
 }

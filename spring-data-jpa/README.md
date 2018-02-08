@@ -15,12 +15,14 @@
 3、jasypt-spring-boot   对明文密码配置项进行加密（完成）
      推荐使用1.16版本，在使用1.17版本的时候，读取不到application.properties中的jasypt的配置属性，导致项目启动的时候就报错
 
-4、首次启动时通过Flyway自动初始化数据库
+4、首次启动时通过Flyway自动初始化数据库（完成）
     主要的对数据库脚本的版本进行控制
     http://blog.csdn.net/kingice1014/article/details/70263083
     
-
 5、使用mock模拟请求Controller对功能进行单元测试
+
+
+
 
 6、使用hibernate-validator进行数据校验
 
@@ -28,7 +30,7 @@
 
 8、异常的全局统一处理
 
-9、使用注解、切面实现日志记录
+9、使用注解、切面实现日志记录````
 
 10、rabbitmq的使用
 http://www.cnblogs.com/ityouknow/p/6120544.html

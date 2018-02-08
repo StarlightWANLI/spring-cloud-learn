@@ -1,0 +1,274 @@
+2018-02-06 18:10:24.551 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5c10f1c3: startup date [Tue Feb 06 18:10:24 CST 2018]; root of context hierarchy
+2018-02-06 18:10:24.920 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-06 18:10:24.997 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$488987c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 18:10:25.111 [main] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2018-02-06 18:10:25.646 [main] INFO  c.h.j.s.SpringDataJpaApplication -The following profiles are active: dev
+2018-02-06 18:10:25.750 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31ee96f4: startup date [Tue Feb 06 18:10:25 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5c10f1c3
+2018-02-06 18:10:27.289 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-06 18:10:27.713 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-06 18:10:27.755 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.UserRepository.
+2018-02-06 18:10:27.756 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.OrderRepository.
+2018-02-06 18:10:28.038 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=15abaaa8-fc1d-351f-acaa-efed4373b403
+2018-02-06 18:10:28.092 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor -Post-processing PropertySource instances
+2018-02-06 18:10:28.181 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-06 18:10:28.182 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-06 18:10:28.182 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:10:28.182 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:10:28.183 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-02-06 18:10:28.183 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application-dev.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:10:28.183 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:10:28.183 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:10:28.183 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource class path resource [eureka/server.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:10:28.183 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:10:28.216 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-06 18:10:28.421 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c6f84c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 18:10:28.572 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$5e9c2b09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 18:10:28.583 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$488987c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 18:10:28.765 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver -Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-02-06 18:10:28.768 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector -Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-02-06 18:10:29.088 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8762 (http)
+2018-02-06 18:10:29.118 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2018-02-06 18:10:29.118 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-06 18:10:29.319 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2018-02-06 18:10:29.319 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3569 ms
+2018-02-06 18:10:29.620 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-02-06 18:10:29.620 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-06 18:10:29.620 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-06 18:10:29.620 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-06 18:10:29.620 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-06 18:10:29.620 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'LogCostFilter' to urls: [/*]
+2018-02-06 18:10:29.620 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-02-06 18:10:29.620 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-02-06 18:10:29.621 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-06 18:10:29.658 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -测试通过代码注册监听器FirstListener   创建……
+2018-02-06 18:10:29.658 [localhost-startStop-1] INFO  c.h.j.s.listener.SecondListener -测试通过注解注册监听器SecondListener 初始化...
+2018-02-06 18:10:29.661 [localhost-startStop-1] INFO  c.h.j.s.filter.LogCostFilter -初始化过滤器  LogCostFilter ……
+2018-02-06 18:10:29.710 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-02-06 18:10:29.738 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-02-06 18:10:29.738 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-02-06 18:10:29.738 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-02-06 18:10:29.738 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-02-06 18:10:29.738 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-02-06 18:10:29.740 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-02-06 18:10:30.708 [main] INFO  o.f.c.internal.util.VersionPrinter -Flyway 3.2.1 by Boxfuse
+2018-02-06 18:10:30.753 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2018-02-06 18:10:31.002 [main] INFO  o.f.c.i.dbsupport.DbSupportFactory -Database: jdbc:mysql://solar_mysql:3306/jpa?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useCompression=true&useSSL=false (MySQL 5.7)
+2018-02-06 18:10:31.306 [main] INFO  o.f.c.i.m.MetaDataTableImpl -Creating Metadata table: `jpa`.`schema_version`
+2018-02-06 18:10:33.243 [main] INFO  o.f.core.internal.command.DbBaseline -Schema baselined with version: 1
+2018-02-06 18:10:33.252 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Unable to scan for SQL migrations in location: classpath:db/migration
+2018-02-06 18:10:33.284 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+2018-02-06 18:10:33.285 [main] INFO  o.a.catalina.core.StandardService -Stopping service Tomcat
+2018-02-06 18:10:33.287 [localhost-startStop-1] INFO  c.h.j.s.filter.LogCostFilter -销毁过滤器  LogCostFilter ……
+2018-02-06 18:10:33.288 [localhost-startStop-1] INFO  c.h.j.s.listener.SecondListener -测试通过注解注册监听器SecondListener 销毁...
+2018-02-06 18:10:33.288 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -测试通过代码注册监听器FirstListener   销毁...
+2018-02-06 18:10:33.311 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-06 18:10:33.334 [main] ERROR o.s.boot.SpringApplication -Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Unable to scan for SQL migrations in location: classpath:db/migration
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.hhly.jpa.springdatajpa.SpringDataJpaApplication.main(SpringDataJpaApplication.java:18)
+Caused by: org.flywaydb.core.api.FlywayException: Unable to scan for SQL migrations in location: classpath:db/migration
+	at org.flywaydb.core.internal.util.scanner.Scanner.scanForResources(Scanner.java:55)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationResolver.resolveMigrations(SqlMigrationResolver.java:110)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationResolver.resolveMigrations(SqlMigrationResolver.java:41)
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.collectMigrations(CompositeMigrationResolver.java:126)
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.doFindAvailableMigrations(CompositeMigrationResolver.java:108)
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.resolveMigrations(CompositeMigrationResolver.java:94)
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.resolveMigrations(CompositeMigrationResolver.java:42)
+	at org.flywaydb.core.internal.info.MigrationInfoServiceImpl.refresh(MigrationInfoServiceImpl.java:96)
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:162)
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:156)
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:156)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1059)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006)
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1418)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 18 common frames omitted
+Caused by: org.flywaydb.core.api.FlywayException: Unable to determine URL for classpath location: db/migration (ClassLoader: sun.misc.Launcher$AppClassLoader@18b4aac2)
+	at org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner.getLocationUrlsForPath(ClassPathScanner.java:192)
+	at org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner.findResourceNames(ClassPathScanner.java:148)
+	at org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner.scanForResources(ClassPathScanner.java:73)
+	at org.flywaydb.core.internal.util.scanner.Scanner.scanForResources(Scanner.java:53)
+	... 36 common frames omitted
+2018-02-06 18:15:05.968 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@576f63f6: startup date [Tue Feb 06 18:15:05 CST 2018]; root of context hierarchy
+2018-02-06 18:15:06.143 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-06 18:15:06.180 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2018-02-06 18:15:06.205 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c1ebed3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 18:15:06.529 [main] INFO  c.h.j.s.SpringDataJpaApplication -The following profiles are active: dev
+2018-02-06 18:15:06.549 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@175acfb2: startup date [Tue Feb 06 18:15:06 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@576f63f6
+2018-02-06 18:15:07.338 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-06 18:15:07.558 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-06 18:15:07.592 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.UserRepository.
+2018-02-06 18:15:07.593 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhly.jpa.springdatajpa.repositories.OrderRepository.
+2018-02-06 18:15:07.816 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=15abaaa8-fc1d-351f-acaa-efed4373b403
+2018-02-06 18:15:07.835 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor -Post-processing PropertySource instances
+2018-02-06 18:15:07.870 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-06 18:15:07.870 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-02-06 18:15:07.871 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:15:07.871 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:15:07.871 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-02-06 18:15:07.871 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application-dev.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:15:07.871 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:15:07.871 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:15:07.871 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource class path resource [eureka/server.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:15:07.871 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-02-06 18:15:07.907 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-06 18:15:08.035 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5d1ea3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 18:15:08.152 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$d7fe9080] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 18:15:08.160 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c1ebed3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 18:15:08.241 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver -Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-02-06 18:15:08.244 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector -Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-02-06 18:15:08.423 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8762 (http)
+2018-02-06 18:15:08.433 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2018-02-06 18:15:08.434 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-06 18:15:08.579 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2018-02-06 18:15:08.579 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2030 ms
+2018-02-06 18:15:08.874 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-02-06 18:15:08.874 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-06 18:15:08.874 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-06 18:15:08.874 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-06 18:15:08.874 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-06 18:15:08.875 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'LogCostFilter' to urls: [/*]
+2018-02-06 18:15:08.875 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-02-06 18:15:08.875 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-02-06 18:15:08.875 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-06 18:15:08.889 [localhost-startStop-1] INFO  c.h.j.s.listener.FirstListener -测试通过代码注册监听器FirstListener   创建……
+2018-02-06 18:15:08.889 [localhost-startStop-1] INFO  c.h.j.s.listener.SecondListener -测试通过注解注册监听器SecondListener 初始化...
+2018-02-06 18:15:08.892 [localhost-startStop-1] INFO  c.h.j.s.filter.LogCostFilter -初始化过滤器  LogCostFilter ……
+2018-02-06 18:15:08.928 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-02-06 18:15:08.935 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-02-06 18:15:08.935 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-02-06 18:15:08.935 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-02-06 18:15:08.935 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-02-06 18:15:08.935 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-02-06 18:15:08.936 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor -Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-02-06 18:15:09.243 [main] INFO  o.f.c.internal.util.VersionPrinter -Flyway 3.2.1 by Boxfuse
+2018-02-06 18:15:09.274 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2018-02-06 18:15:09.427 [main] INFO  o.f.c.i.dbsupport.DbSupportFactory -Database: jdbc:mysql://solar_mysql:3306/jpa?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useCompression=true&useSSL=false (MySQL 5.7)
+2018-02-06 18:15:09.556 [main] INFO  o.f.core.internal.command.DbMigrate -Current version of schema `jpa`: 1
+2018-02-06 18:15:09.556 [main] INFO  o.f.core.internal.command.DbMigrate -Migrating schema `jpa` to version 1.0.1 - DDL INIT
+2018-02-06 18:15:10.223 [main] INFO  o.f.core.internal.command.DbMigrate -Successfully applied 1 migration to schema `jpa` (execution time 00:00.716s).
+2018-02-06 18:15:10.510 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-06 18:15:10.522 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-06 18:15:10.641 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-06 18:15:10.643 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2018-02-06 18:15:10.644 [main] INFO  org.hibernate.cfg.Environment -HHH000021: Bytecode provider name : javassist
+2018-02-06 18:15:10.737 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-06 18:15:10.988 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-06 18:15:11.553 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-06 18:15:14.273 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory
+2018-02-06 18:15:17.030 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/v1/orders],methods=[DELETE]}" onto public com.hhly.jpa.springdatajpa.model.response.RestfulResponse com.hhly.jpa.springdatajpa.controller.OrderController.delete(java.lang.Long)
+2018-02-06 18:15:17.030 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/v1/orders],methods=[POST]}" onto public com.hhly.jpa.springdatajpa.model.response.ObjectDataResponse<com.hhly.jpa.springdatajpa.domain.Order> com.hhly.jpa.springdatajpa.controller.OrderController.save(com.hhly.jpa.springdatajpa.domain.Order)
+2018-02-06 18:15:17.031 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/v1/orders/query],methods=[POST]}" onto public com.hhly.jpa.springdatajpa.model.response.ObjectCollectionResponse<com.hhly.jpa.springdatajpa.domain.Order> com.hhly.jpa.springdatajpa.controller.OrderController.query(com.hhly.jpa.springdatajpa.model.request.OrderRequest)
+2018-02-06 18:15:17.031 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/v1/orders/{id}],methods=[DELETE]}" onto public com.hhly.jpa.springdatajpa.model.response.RestfulResponse com.hhly.jpa.springdatajpa.controller.OrderController.deletePath(java.lang.Long)
+2018-02-06 18:15:17.032 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/v1/user/confirmation],methods=[POST],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public com.hhly.jpa.springdatajpa.model.response.ObjectDataResponse<com.hhly.jpa.springdatajpa.domain.User> com.hhly.jpa.springdatajpa.controller.UserController.query(com.hhly.jpa.springdatajpa.model.request.UserRequest)
+2018-02-06 18:15:17.032 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-02-06 18:15:17.036 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-02-06 18:15:17.036 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-02-06 18:15:17.037 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-02-06 18:15:17.039 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-06 18:15:17.039 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-06 18:15:17.815 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-02-06 18:15:17.816 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-02-06 18:15:17.816 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-02-06 18:15:17.816 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.817 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.819 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-02-06 18:15:17.820 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.821 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-02-06 18:15:17.821 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/flyway || /flyway.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.821 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-02-06 18:15:17.821 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.822 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-02-06 18:15:17.823 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-02-06 18:15:17.823 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.824 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-02-06 18:15:17.824 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.825 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-02-06 18:15:17.825 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-02-06 18:15:17.825 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-02-06 18:15:17.825 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.826 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.826 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.827 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.827 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:17.827 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-02-06 18:15:17.827 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-02-06 18:15:18.247 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@175acfb2: startup date [Tue Feb 06 18:15:06 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@576f63f6
+2018-02-06 18:15:18.308 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 18:15:18.308 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 18:15:18.331 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -Detected @ExceptionHandler methods in faultBarrier
+2018-02-06 18:15:18.368 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 18:15:19.291 [main] INFO  o.s.u.f.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@175acfb2: startup date [Tue Feb 06 18:15:06 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@576f63f6] and template loader path [classpath:/templates/]
+2018-02-06 18:15:19.292 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-06 18:15:19.540 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-02-06 18:15:19.540 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-02-06 18:15:19.550 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-02-06 18:15:19.550 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-02-06 18:15:19.804 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2018-02-06 18:15:19.806 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-06 18:15:19.815 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-02-06 18:15:19.818 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-02-06 18:15:19.818 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-02-06 18:15:19.818 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-02-06 18:15:19.819 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-02-06 18:15:19.822 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-02-06 18:15:19.861 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-02-06 18:15:19.870 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-02-06 18:15:19.882 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=175acfb2,type=ConfigurationPropertiesRebinder]
+2018-02-06 18:15:19.887 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-06 18:15:19.888 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-02-06 18:15:19.889 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Registering beans for JMX exposure on startup
+2018-02-06 18:15:20.232 [main] INFO  o.s.c.s.DefaultLifecycleProcessor -Starting beans in phase 0
+2018-02-06 18:15:20.235 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2018-02-06 18:15:20.241 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2018-02-06 18:15:20.248 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2018-02-06 18:15:20.250 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'flywayEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=flywayEndpoint]
+2018-02-06 18:15:20.252 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2018-02-06 18:15:20.255 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2018-02-06 18:15:20.257 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2018-02-06 18:15:20.259 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2018-02-06 18:15:20.262 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2018-02-06 18:15:20.267 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2018-02-06 18:15:20.269 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2018-02-06 18:15:20.271 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2018-02-06 18:15:20.273 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2018-02-06 18:15:20.275 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2018-02-06 18:15:20.277 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2018-02-06 18:15:20.278 [main] INFO  o.s.c.s.DefaultLifecycleProcessor -Starting beans in phase 2147483647
+2018-02-06 18:15:20.278 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+2018-02-06 18:15:20.640 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+2018-02-06 18:15:20.654 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+2018-02-06 18:15:20.941 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator -Generating unique operation named: queryUsingPOST_1
+2018-02-06 18:15:21.013 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8762"]
+2018-02-06 18:15:21.031 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler [http-nio-8762]
+2018-02-06 18:15:21.041 [main] INFO  o.a.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2018-02-06 18:15:21.060 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 8762 (http)
+2018-02-06 18:15:21.064 [main] INFO  c.h.j.s.c.StartupLogging1Runner -startup  1  ……
+2018-02-06 18:15:21.064 [main] INFO  c.h.j.s.c.StartupLogging2Runner -startup  2  ……123456
+2018-02-06 18:15:21.064 [main] INFO  c.h.j.s.c.StartupLogging2Runner -startup  2   密码值：123456
+2018-02-06 18:15:21.065 [main] INFO  c.h.j.s.SpringDataJpaApplication -Started SpringDataJpaApplication in 16.02 seconds (JVM running for 16.892)

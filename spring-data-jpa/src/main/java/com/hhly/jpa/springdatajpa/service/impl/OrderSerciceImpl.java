@@ -30,9 +30,8 @@ public class OrderSerciceImpl implements OrderService{
     private OrderMapper orderMapper;
 
     @Override
-    public ObjectCollectionResponse<Order> query(OrderRequest request) {
+    public ObjectCollectionResponse<Order> query(Order order) {
       //  List<Order> orderList = orderRepository.findByUserId( request.getUserId());
-        Order order = new Order();
         List<Order> orderList = orderMapper.findAll(order);
         return new ObjectCollectionResponse(orderList);
     }

@@ -14,7 +14,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode //callSuper属性只有在子类中才能使用
-@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
+//  这种json序列化策略会将  实体类中的驼峰命名法转为“_”下划线命名，如orderCode会转为order_code
+//   @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(value = {"hibernateLazyInitializer", "handler", "fieldHandler"}, ignoreUnknown = true)
 @Entity

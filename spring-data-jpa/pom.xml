@@ -23,9 +23,11 @@
 	</properties>
 
 	<dependencies>
+		 <!--配置flyway-maven-plugin插件没有起作用-->
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
+			<version>5.0.7</version>
 		</dependency>
 	</dependencies>
 
@@ -35,11 +37,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+<!--			<plugin>
 				<groupId>org.flywaydb</groupId>
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>5.0.7</version>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 

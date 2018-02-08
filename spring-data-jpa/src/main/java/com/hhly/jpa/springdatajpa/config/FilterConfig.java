@@ -17,7 +17,8 @@ public class FilterConfig {
     public FilterRegistrationBean registFilter() {
         FilterRegistrationBean registration = new FilterRegistrationBean();
         registration.setFilter(new LogCostFilter());
-        registration.addUrlPatterns("/*");
+        //registration.addUrlPatterns("/*");  ///api/v1
+        registration.addUrlPatterns("/api/v1/*");
         registration.setName("LogCostFilter");
         //设置过滤器执行顺序
         registration.setOrder(1);

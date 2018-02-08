@@ -15,7 +15,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode(callSuper = true)  //callSuper属性只有在子类中才能使用
-@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)//使用驼峰命名法
+//@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)//使用驼峰命名法
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(value = {"hibernateLazyInitializer", "handler", "fieldHandler"}, ignoreUnknown = true)
 @Entity
@@ -42,6 +42,14 @@ public class User extends BasicDomain {
     private Integer sex;
     @Column(nullable = false)
     private Integer status;
+
+    /*pageNum表示当前页码，pageSize每页多少条记录*/
+    @Transient
+    private Integer pageNum;
+
+    @Transient
+    private Integer pageSize;
+
 
 
 }
