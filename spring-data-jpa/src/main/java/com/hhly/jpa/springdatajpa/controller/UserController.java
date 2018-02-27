@@ -95,6 +95,7 @@ public class UserController {
      * @author chhliu
      */
     @RequestMapping(value="/users/page", method=RequestMethod.GET)
+    @RequestLogging
     public ResultMsg<Map<String,Object>> findPage(final Integer pageNum, final Integer pageSize, final String username){
         ResultMsg<Map<String,Object>> res = new ResultMsg<Map<String,Object>>();
         try {
@@ -128,6 +129,7 @@ public class UserController {
      * @author chhliu
      */
     @RequestMapping(value="/users" ,method=RequestMethod.POST)
+    @RequestLogging
     public ResultMsg<User> saveUser(@RequestBody final User entity){
         ResultMsg<User> res = new ResultMsg<User>();
         try {
@@ -148,6 +150,7 @@ public class UserController {
      * @author chhliu
      */
     @RequestMapping(value="/users" ,method=RequestMethod.PUT)
+    @RequestLogging
     public ResultMsg<User> updateUser(@RequestBody final User entity){
         ResultMsg<User> res = new ResultMsg<User>();
         //不是很推荐在控制层调用dao层，这样的方法通用性太差，不能别其他类调用
@@ -186,6 +189,7 @@ public class UserController {
      * @author chhliu
      */
     @RequestMapping(value="users/{id}", method=RequestMethod.DELETE)
+    @RequestLogging
     public ResultMsg<Boolean> deleteUser(@PathVariable("id") final Long id){
         ResultMsg<Boolean> res = new ResultMsg<Boolean>();
         try {

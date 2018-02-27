@@ -1,2 +1,159 @@
-2018-02-08 15:03:04.559 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper -Column 'login_pwd' cannot be null
-2018-02-08 15:04:18.757 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper -Column 'pwd_salt' cannot be null
+2018-02-27 09:16:50.694 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:16:51.706 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer -Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpIOException: java.io.IOException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:71)
+	at org.springframework.amqp.rabbit.connection.RabbitAccessor.convertRabbitAccessException(RabbitAccessor.java:113)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1461)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.initialize(RabbitAdmin.java:500)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin$11.onCreate(RabbitAdmin.java:419)
+	at org.springframework.amqp.rabbit.connection.CompositeConnectionListener.onCreate(CompositeConnectionListener.java:33)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:571)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1430)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:336)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1135)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1200(SimpleMessageListenerContainer.java:96)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1380)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:105)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:101)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:123)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclare(ChannelN.java:948)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclare(ChannelN.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:955)
+	at com.sun.proxy.$Proxy174.queueDeclare(Unknown Source)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.declareQueues(RabbitAdmin.java:575)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.access$200(RabbitAdmin.java:66)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin$12.doInRabbit(RabbitAdmin.java:504)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1455)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: connection error
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:32)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:366)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:229)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:117)
+	... 26 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:571)
+	... 1 common frames omitted
+2018-02-27 09:17:19.705 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:17:19.706 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:17:19.706 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:17:19.710 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:17:19.710 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:17:19.710 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:17:19.710 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:17:19.710 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:17:19.710 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.r.c.CachingConnectionFactory -Channel shutdown: connection error
+2018-02-27 09:17:19.745 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer -Failed to check/redeclare auto-delete queue(s).
+java.lang.IllegalStateException: The ApplicationContext is closed and the ConnectionFactory can no longer create connections.
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:561)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1430)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.initialize(RabbitAdmin.java:500)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1139)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1200(SimpleMessageListenerContainer.java:96)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1380)
+	at java.lang.Thread.run(Thread.java:748)
+2018-02-27 09:17:19.756 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer -Failed to check/redeclare auto-delete queue(s).
+java.lang.IllegalStateException: The ApplicationContext is closed and the ConnectionFactory can no longer create connections.
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:561)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1430)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.initialize(RabbitAdmin.java:500)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1139)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1200(SimpleMessageListenerContainer.java:96)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1380)
+	at java.lang.Thread.run(Thread.java:748)
+2018-02-27 09:17:19.761 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer -Failed to check/redeclare auto-delete queue(s).
+java.lang.IllegalStateException: The ApplicationContext is closed and the ConnectionFactory can no longer create connections.
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:561)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1430)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.initialize(RabbitAdmin.java:500)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1139)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1200(SimpleMessageListenerContainer.java:96)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1380)
+	at java.lang.Thread.run(Thread.java:748)
+2018-02-27 09:17:19.762 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer -Failed to check/redeclare auto-delete queue(s).
+java.lang.IllegalStateException: The ApplicationContext is closed and the ConnectionFactory can no longer create connections.
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:561)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1430)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.initialize(RabbitAdmin.java:500)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1139)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1200(SimpleMessageListenerContainer.java:96)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1380)
+	at java.lang.Thread.run(Thread.java:748)
+2018-02-27 09:17:19.763 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer -Failed to check/redeclare auto-delete queue(s).
+java.lang.IllegalStateException: The ApplicationContext is closed and the ConnectionFactory can no longer create connections.
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:561)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1430)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.initialize(RabbitAdmin.java:500)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1139)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1200(SimpleMessageListenerContainer.java:96)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1380)
+	at java.lang.Thread.run(Thread.java:748)
+2018-02-27 09:17:19.769 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer -Failed to check/redeclare auto-delete queue(s).
+java.lang.IllegalStateException: The ApplicationContext is closed and the ConnectionFactory can no longer create connections.
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:561)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1430)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.initialize(RabbitAdmin.java:500)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1139)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1200(SimpleMessageListenerContainer.java:96)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1380)
+	at java.lang.Thread.run(Thread.java:748)
+2018-02-27 09:17:19.774 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer -Failed to check/redeclare auto-delete queue(s).
+java.lang.IllegalStateException: The ApplicationContext is closed and the ConnectionFactory can no longer create connections.
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:561)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1430)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.initialize(RabbitAdmin.java:500)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1139)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1200(SimpleMessageListenerContainer.java:96)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1380)
+	at java.lang.Thread.run(Thread.java:748)
+2018-02-27 09:17:19.775 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer -Failed to check/redeclare auto-delete queue(s).
+java.lang.IllegalStateException: The ApplicationContext is closed and the ConnectionFactory can no longer create connections.
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:561)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1430)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1411)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1387)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.initialize(RabbitAdmin.java:500)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1139)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1200(SimpleMessageListenerContainer.java:96)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1380)
+	at java.lang.Thread.run(Thread.java:748)

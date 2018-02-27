@@ -33,8 +33,6 @@ public class SpringDataJpaApplicationTests {
 	public void encryptPwd() {
 		String result = stringEncryptor.encrypt("123456");
 		System.out.println("jasypt密码加密：" +  result);
-
-
 	}
 
 

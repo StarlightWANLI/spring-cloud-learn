@@ -2,6 +2,7 @@ package com.hhly.jpa.springdatajpa.interceptor;
 
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.core.annotation.Order;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -24,6 +25,7 @@ import javax.servlet.http.HttpServletResponse;
  *  在拦截器中我们可以处理一些我们需要的业务，比如防xss攻击，在调用controller前对提交内容进行过滤等等。
  */
 @Slf4j
+@Order(-99)
 public class LogCostInterceptor implements HandlerInterceptor {
 
     long start = System.currentTimeMillis();

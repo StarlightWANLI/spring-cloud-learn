@@ -7,6 +7,7 @@ import com.hhly.jpa.springdatajpa.model.ResponseDetailsLogger;
 import com.hhly.jpa.springdatajpa.util.ServletContextHolder;
 import com.hhly.jpa.springdatajpa.annatation.RequestLogging;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -14,6 +15,8 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.Ordered;
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
 import java.time.OffsetDateTime;
@@ -27,13 +30,10 @@ import java.time.OffsetDateTime;
  * @see org.springframework.web.bind.annotation.ControllerAdvice
  */
 @Aspect
-public class RequestLoggingAspect implements Ordered {
-    private static final Logger LOGGER = LoggerFactory.getLogger(RequestLoggingAspect.class);
-    private final int order;
-
-    public RequestLoggingAspect(int order) {
-        this.order = order;
-    }
+@Order(-99) // 控制多个Aspect的执行顺序，越小越先执行
+@Slf4j
+@Component
+public class RequestLoggingAspect{
 
     @Around(value = "within(com.hhly.jpa..*) " +
             "&& (@annotation(org.springframework.web.bind.annotation.ResponseBody)" +
@@ -48,7 +48,7 @@ public class RequestLoggingAspect implements Ordered {
         final Object proceed = joinPoint.proceed();
         // 当响应完成时, 打印完整的'request & response'信息
         requestLog.setResponseTime(OffsetDateTime.now());
-        LOGGER.debug("RequestLoggingAspect#\r\nREQUEST->\r\n{}\r\nRESPONSE->\r\n {}", requestLog, ResponseDetailsLogger.with(proceed));
+        log.info("RequestLoggingAspect#\r\nREQUEST->\r\n{}\r\nRESPONSE->\r\n {}", requestLog, ResponseDetailsLogger.with(proceed));
         // 放行
         return proceed;
     }
@@ -76,8 +76,4 @@ public class RequestLoggingAspect implements Ordered {
         }
     }
 
-    @Override
-    public int getOrder() {
-        return order;
-    }
 }
