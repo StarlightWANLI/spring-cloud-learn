@@ -1,0 +1,17 @@
+
+server:
+  port: 9010
+spring:
+  application:
+    name: register       #name必须一样，不然高可用会导致unavailable-replicas
+
+#这里如果    register1，register2需要在本机中配置对应的ip
+eureka:
+  instance:
+    hostname: register1
+  client:
+    register-with-eureka: true   # 这里要覆盖application的设置，不然会读取application文件导致unavailable-replicas
+    fetch-registry: true #这里要覆盖application的设置，不然会读取application文件导致unavailable-replicas
+    service-url:
+      defaultZone: http://register2:9011/eureka/
+debug: true

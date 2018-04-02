@@ -1,0 +1,46 @@
+##表示是否将自己注册到Eureka Server，默认为true。由于当前这个应用就是Eureka Server，故而设为false
+#eureka.client.register-with-eureka=false
+##表示是否从Eureka Server获取注册信息，默认为true。因为这是一个单点的Eureka Server，不需要同步其他的Eureka Server节点的数据，故而设为false。
+#eureka.client.fetch-registry=false
+##设置eureka.instance.hostname的值，eureka注册中心的hostname
+##eureka.instance.hostname=localhost
+##设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔。
+#eureka.client.service-url.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka/
+#
+#
+##Eureka Server端：配置关闭自我保护，并按需配置Eureka Server清理无效节点的时间间隔。
+## 设为false，关闭自我保护
+#eureka.server.enable-self-preservation=false
+## 清理间隔（单位毫秒，默认是60*1000）
+#eureka.server.eviction-interval-timer-in-ms=60000
+
+server:
+  port: 9010
+spring:
+  application:
+    name: register
+
+eureka:
+  instance:
+    hostname: register
+  server:
+    enable-self-preservation: false  # 关闭自我保护
+    eviction-interval-timer-in-ms: 60000
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#  server:
+#    eviction-interval-timer-in-ms: 5000 #### 清理间隔（单位毫秒，默认是60*1000），开发环境设置如下可快速移除不可用的服务
+
+###actuator监控点 start####
+endpoints:
+  health:
+    sensitive: false
+    enabled: true
+##默认情况下很多端点是不允许访问的，会返回401:Unauthorized
+management:
+  security:
+    enabled: false
+###actuator监控点 end####
