@@ -1,0 +1,1 @@
+为了创建一个Authorization Server和授权访问密码
